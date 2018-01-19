@@ -31,7 +31,19 @@ public class DCombot {
         try {
             runtime.executeScript(FileUtils.readFileToString(script));
 
+            V8Array bots =  runtime.getArray("DCombot");
 
+            for (Integer i = 0;bots.length() > i;i++) {
+                V8Object bot = bots.getObject(i);
+                System.out.println(bot.getString("test"));
+            }
+
+
+            System.out.println(runtime.getType("DCombot"));
+
+
+
+            bots.release();
         } catch (java.io.IOException e) {
             System.err.println(e.getMessage());
         }

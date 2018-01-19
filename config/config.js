@@ -1,3 +1,9 @@
-var DCombot = {
+var DCombot = [
+        {
+            test: 'test'
 
-};
+        }
+
+
+    ]
+;
