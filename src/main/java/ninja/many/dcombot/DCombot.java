@@ -1,6 +1,8 @@
 package ninja.many.dcombot;
 
 import com.eclipsesource.v8.*;
+import ninja.many.dcombot.Bot;
+import ninja.many.dcombot.system.Config
 import org.apache.commons.io.FileUtils;
 import java.io.File;
 
@@ -34,6 +36,7 @@ public class DCombot {
             V8Array bots =  runtime.getArray("DCombot");
 
             for (Integer i = 0;bots.length() > i;i++) {
+
                 V8Object bot = bots.getObject(i);
                 System.out.println(bot.getString("test"));
             }
