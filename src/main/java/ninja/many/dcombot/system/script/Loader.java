@@ -4,24 +4,30 @@ import org.apache.commons.io.FileUtils;
 import java.io.File;
 
 public class Loader {
-    private String Content;
+    private String content;
+    private Boolean exist;
 
-    public boolean Loader(String file)
+    public Loader(String file)
     {
         File script = new File(file);
+        exist = false;
+
         if(script.exists() && !script.isDirectory()) {
             try {
-                Content = FileUtils.readFileToString(script);
-                return true;
+                content = FileUtils.readFileToString(script);
+                exist = true;
             } catch (java.io.IOException e) {
-                return false;
             }
-        } else {
-            return false;
         }
     }
+
+    public boolean exist()
+    {
+        return exist;
+    }
+
     public String getContent()
     {
-        return Content;
+        return content;
     }
 }
