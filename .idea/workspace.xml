@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddd44dd7-0e6c-4f90-93d5-2451dfc48dd7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ninja/many/dcombot/DCombot.java" afterPath="$PROJECT_DIR$/src/main/java/ninja/many/dcombot/DCombot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ninja/many/dcombot/system/Config.java" afterPath="$PROJECT_DIR$/src/main/java/ninja/many/dcombot/system/Config.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ninja/many/dcombot/system/script/ScriptFile.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ninja/many/dcombot/system/script/Loader.java" afterPath="$PROJECT_DIR$/src/main/java/ninja/many/dcombot/system/script/Loader.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,8 +29,8 @@
       <file leaf-file-name="DCombot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ninja/many/dcombot/DCombot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+            <state relative-caret-position="595">
+              <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,20 +64,22 @@
       <file leaf-file-name="Loader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ninja/many/dcombot/system/script/Loader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="459">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
-                <element signature="e#152#153#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#617#618#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScriptFile.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ninja/many/dcombot/system/script/ScriptFile.java">
+      <file leaf-file-name="ScriptObject.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ninja/many/dcombot/system/script/ScriptObject.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+              <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -134,6 +136,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ninja/many/dcombot/system/script/ScriptLoader.java" />
         <option value="$PROJECT_DIR$/src/main/java/ninja/many/dcombot/DCombot.java" />
         <option value="$PROJECT_DIR$/src/main/java/ninja/many/dcombot/system/script/Loader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ninja/many/dcombot/system/script/ScriptObject.java" />
       </list>
     </option>
   </component>
@@ -378,12 +381,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516322647049</updated>
-      <workItem from="1516322649388" duration="19391000" />
+      <workItem from="1516322649388" duration="20631000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19391000" />
+    <option name="totallyTimeSpent" value="20631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -474,8 +477,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ninja/many/dcombot/DCombot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+        <state relative-caret-position="595">
+          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -484,18 +487,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ninja/many/dcombot/system/script/Loader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="e#152#153#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ninja/many/dcombot/system/script/ScriptFile.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ninja/many/dcombot/system/script/ScriptObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
           <folding />
         </state>
       </provider>
