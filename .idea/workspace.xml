@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddd44dd7-0e6c-4f90-93d5-2451dfc48dd7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ninja/many/dcombot/system/script/ScriptFile.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config.js" afterPath="$PROJECT_DIR$/config/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ninja/many/dcombot/system/Config.java" afterPath="$PROJECT_DIR$/src/main/java/ninja/many/dcombot/system/Config.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ninja/many/dcombot/system/script/Loader.java" afterPath="$PROJECT_DIR$/src/main/java/ninja/many/dcombot/system/script/Loader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ninja/many/dcombot/system/script/ScriptObject.java" afterPath="$PROJECT_DIR$/src/main/java/ninja/many/dcombot/system/script/ScriptObject.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ninja/many/dcombot/protocol/adapters/discord/Base.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -87,21 +83,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Base.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ninja/many/dcombot/protocol/adapters/discord/Base.java">
+      <file leaf-file-name="Discord.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ninja/many/dcombot/protocol/adapters/discord/Discord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProtocolInterface.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProtocolInterface.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ninja/many/dcombot/protocol/Interfaces/ProtocolInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -161,6 +157,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ninja/many/dcombot/system/script/ScriptObject.java" />
         <option value="$PROJECT_DIR$/config/config.js" />
         <option value="$PROJECT_DIR$/src/main/java/ninja/many/dcombot/protocol/adapters/discord/Base.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ninja/many/dcombot/protocol/adapters/discord/Discord.java" />
       </list>
     </option>
   </component>
@@ -435,12 +432,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516322647049</updated>
-      <workItem from="1516322649388" duration="24063000" />
+      <workItem from="1516322649388" duration="24982000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24063000" />
+    <option name="totallyTimeSpent" value="24982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -566,18 +563,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ninja/many/dcombot/protocol/adapters/discord/Base.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ninja/many/dcombot/protocol/Interfaces/ProtocolInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ninja/many/dcombot/protocol/Interfaces/ProtocolInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ninja/many/dcombot/protocol/adapters/discord/Discord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
