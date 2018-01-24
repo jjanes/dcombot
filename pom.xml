@@ -26,8 +26,8 @@
         </activation>
 
         <properties>
-          <build.v8.artifactId>j2v8_linux_x86_64</build.v8.artifactId>
-          <build.v8.version>4.8.0</build.v8.version>
+          <v8.artifactId>j2v8_linux_x86_64</v8.artifactId>
+          <v8.version>4.8.0</v8.version>
         </properties>
       </profile>
 
@@ -41,8 +41,8 @@
         </activation>
 
         <properties>
-          <build.v8.artifactId>j2v8_win32_x86</build.v8.artifactId>
-          <build.v8.version>4.8.0</build.v8.version>
+          <v8.artifactId>j2v8_win32_x86</v8.artifactId>
+          <v8.version>4.8.0</v8.version>
         </properties>
       </profile>
     </profiles>
@@ -53,8 +53,8 @@
     <dependencies>
       <dependency>
         <groupId>com.eclipsesource.j2v8</groupId>
-        <artifactId>${build.v8.artifactId}</artifactId>
-        <version>${build.v8.version}</version>
+        <artifactId>${v8.artifactId}</artifactId>
+        <version>${v8.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.commons</groupId>

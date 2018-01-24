@@ -26,6 +26,7 @@ public class DCombot {
         */
 
         String path = System.getProperty("user.dir")+"/config/config.js";
+        System.out.println(path);
 
         File script = new File(path);
 
@@ -37,7 +38,7 @@ public class DCombot {
 
             for (Integer i = 0;bots.length() > i;i++) {
                 V8Object bot = bots.getObject(i);
-                System.out.println(bot.getString("test"));
+                System.out.println(bot.getString("title"));
             }
 
             System.out.println(runtime.getType("DCombot"));
