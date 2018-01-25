@@ -5,9 +5,15 @@ import ninja.many.dcombot.Bot;
 import ninja.many.dcombot.system.Config;
 import org.apache.commons.io.FileUtils;
 import java.io.File;
+import ninja.many.dcombot.system.Config;
 
 public class DCombot {
-    public static void main(String args[]) {
+  
+  public static void main(String args[]) {
+
+        Config cfg = new Config();
+
+
         V8 runtime = V8.createV8Runtime();
         /*
         runtime.executeVoidScript(""

@@ -6,6 +6,7 @@ public class ScriptObject {
     String content;
     Boolean hasContent;
 
+
     public ScriptObject(String file)
     {
         Loader script = new Loader(file);
@@ -16,6 +17,11 @@ public class ScriptObject {
         } else {
             hasContent = false;
         }
+    }
+
+    public boolean hasContent()
+    {
+      return hasContent;
     }
 
     public boolean load()
