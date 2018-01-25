@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profilesXml xmlns="http://maven.apache.org/PROFILES/1.0.0"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://maven.apache.org/PROFILES/1.0.0 http://maven.apache.org/xsd/profiles-1.0.0.xsd">
+    <profiles>
+      <profile>
+        <id>linux</id>
+        <activation>
+          <os>
+            <name>Linux</name>
+            <family>unix</family>
+          </os>
+        </activation>
+
+        <properties>
+          <v8.artifactId>j2v8_linux_x86_64</v8.artifactId>
+          <v8.version>4.6.0</v8.version>
+        </properties>
+      </profile>
+
+      <profile>
+        <id>windows</id>
+        <activation>
+          <os>
+            <name>Windows</name>
+            <family>windows 10</family>
+          </os>
+        </activation>
+
+        <properties>
+          <v8.artifactId>j2v8_win32_x86</v8.artifactId>
+          <v8.version>4.6.0</v8.version>
+        </properties>
+      </profile>
+    </profiles>
+
+
+</profilesXml>
