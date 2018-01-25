@@ -25,6 +25,7 @@ public class DCombot {
         hockeyTeam.release();
         */
 
+        System.out.println(System.getProperty( "os.name" ) );
         String path = System.getProperty("user.dir")+"/config/config.js";
         System.out.println(path);
 
