@@ -5,10 +5,13 @@ import com.eclipsesource.v8.*;
 public class ScriptObject {
     String content;
     Boolean hasContent;
+    Boolean hasExecuted; 
 
 
     public ScriptObject(String file)
     {
+        hasExecuted = false;
+
         Loader script = new Loader(file);
 
         if (script.exist()) {
