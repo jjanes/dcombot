@@ -5,7 +5,8 @@ import com.eclipsesource.v8.*;
 public class ScriptObject {
     String content;
     Boolean hasContent;
-    Boolean hasExecuted; 
+    Boolean hasExecuted;
+    V8 runtime;
 
 
     public ScriptObject(String file)
@@ -36,28 +37,30 @@ public class ScriptObject {
     public boolean exec()
     {
         if (hasContent) {
-            V8 runtime = V8.createV8Runtime();
+            runtime = V8.createV8Runtime();
 
-            runtime.executeScript(content);
+            // try {
+              // runtime.executeScript(FileUtils.readFileToString(script));
+              runtime.executeScript(content);
 
-            V8Array bots =  runtime.getArray("DCombot");
 
-            for (Integer i = 0;bots.length() > i;i++) {
-                V8Object bot = bots.getObject(i);
-                System.out.println(bot.getString("test"));
-            }
+            // } catch (java.io.IOException e) {
+            //  System.err.println(e.getMessage());
+            // }
 
-            System.out.println(runtime.getType("DCombot"));
-
-            bots.release();
 
         }
 
         return true;
     }
 
+    public V8 getRuntime()
+    {
+      return runtime;
+    }
+    
     public void release()
     {
-
+      runtime.release();
     }
 }
